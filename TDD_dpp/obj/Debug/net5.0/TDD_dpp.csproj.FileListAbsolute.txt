@@ -1,0 +1,16 @@
+C:\Users\Martyna\source\repos\TDD_dpp\bin\Debug\net5.0\TDD_dpp.exe
+C:\Users\Martyna\source\repos\TDD_dpp\bin\Debug\net5.0\TDD_dpp.deps.json
+C:\Users\Martyna\source\repos\TDD_dpp\bin\Debug\net5.0\TDD_dpp.runtimeconfig.json
+C:\Users\Martyna\source\repos\TDD_dpp\bin\Debug\net5.0\TDD_dpp.runtimeconfig.dev.json
+C:\Users\Martyna\source\repos\TDD_dpp\bin\Debug\net5.0\TDD_dpp.dll
+C:\Users\Martyna\source\repos\TDD_dpp\bin\Debug\net5.0\ref\TDD_dpp.dll
+C:\Users\Martyna\source\repos\TDD_dpp\bin\Debug\net5.0\TDD_dpp.pdb
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.csproj.AssemblyReference.cache
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.AssemblyInfoInputs.cache
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.AssemblyInfo.cs
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.csproj.CoreCompileInputs.cache
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.dll
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\ref\TDD_dpp.dll
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.pdb
+C:\Users\Martyna\source\repos\TDD_dpp\obj\Debug\net5.0\TDD_dpp.genruntimeconfig.cache
