@@ -8,12 +8,21 @@ on:
 
 jobs:
   build-and-test:
-    name: Build and Run Tests
+    name: Build, Lint, and Run Tests
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
+
+    - name: Lint Code with SuperLinter
+      uses: github/super-linter@v5
+      env:
+        DEFAULT_BRANCH: main
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        LANGUAGES: csharp
+        VALIDATE_ALL_CODEBASE: true
+        RUN_LOCAL: false
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
