@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QJfGNN7jqmHnX7Rehfw7N6G2jCLXrswR/lvaA4qHFI7bMbXIn5+HtMbZ5AwI+lJoHC1AhMiz/HNWTnZKiPN7Wg==",
+  "dgSpecHash": "EfHDEzW/gTddg6GcV5V/SVTVpgxO/t8QS2BQSj1cKokLrw5dgodSoPsVPzOMEfOOqa8QPpNPuers4I6Rxm7Mqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Martyna\\Dobre-Praktyki-Programowania\\TDD_dpp\\TDD_dpp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martyna\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
-    "C:\\Users\\Martyna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Martyna\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
-    "C:\\Users\\Martyna\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\Martyna\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
-    "C:\\Users\\Martyna\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512",
     "C:\\Users\\Martyna\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []

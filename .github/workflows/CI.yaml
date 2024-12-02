@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    name: Build and Test Project
+    name: Build and Run Tests with Coverage
     runs-on: ubuntu-latest
 
     steps:
@@ -27,9 +27,16 @@ jobs:
       run: dotnet build TDD_dpp/TDD_dpp.sln --configuration Release --no-restore
 
     - name: Run Tests with Coverage
-      run: dotnet test TDD_dpp/TDD_dpp.sln --configuration Release --no-build --collect:"XPlat Code Coverage"
+      run: |
+        dotnet test TDD_dpp/TDD_dpp.sln --configuration Release --no-build --collect:"XPlat Code Coverage" --logger:"trx;LogFileName=TestResults.trx"
       env:
         DOTNET_CLI_TELEMETRY_OPTOUT: 1
+
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: TestResults/
 
     - name: Upload Coverage Report
       uses: actions/upload-artifact@v3

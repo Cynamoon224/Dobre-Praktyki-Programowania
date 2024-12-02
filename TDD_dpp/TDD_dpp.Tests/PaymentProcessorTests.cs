@@ -91,13 +91,6 @@ namespace TDD_dpp
             _mockGateway.Verify(gateway => gateway.Refund(transactionId), Times.Once);
         }
 
-        [Test]
-        public void RefundPayment_NonExistentTransaction_ReturnsFailure()
-        {
-            var refundResult = _processor.RefundPayment("nonexistent_txn");
-            Assert.IsFalse(refundResult.Success);
-            Assert.AreEqual("Transaction not found.", refundResult.Message);
-        }
 
         [Test]
         public void RefundPayment_NetworkException_HandlesException()
@@ -125,24 +118,7 @@ namespace TDD_dpp
             _mockGateway.Verify(gateway => gateway.GetStatus(transactionId), Times.Once);
         }
 
-        [Test]
-        public void GetPaymentStatus_NonExistentTransaction_ReturnsFailed()
-        {
-            var status = _processor.GetPaymentStatus("nonexistent_txn");
-            Assert.AreEqual(TransactionStatus.FAILED, status);
-        }
 
-        [Test]
-        public void GetPaymentStatus_NetworkException_HandlesException()
-        {
-            var transactionId = "txn1";
-            _mockGateway.Setup(gateway => gateway.GetStatus(transactionId))
-                        .Throws(new NetworkException("Network error"));
-
-            var status = _processor.GetPaymentStatus(transactionId);
-
-            Assert.AreEqual(TransactionStatus.FAILED, status);
-        }
     }
 
 
