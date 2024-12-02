@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tdwSbaGl9rWGAeOp3gpSpGSD1yVzm/E7syS1fG9+dsRv9+7TPIjVooshFmFeMyP67WRbIBURacvQCZarjIwIEQ==",
+  "dgSpecHash": "QJfGNN7jqmHnX7Rehfw7N6G2jCLXrswR/lvaA4qHFI7bMbXIn5+HtMbZ5AwI+lJoHC1AhMiz/HNWTnZKiPN7Wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Martyna\\source\\repos\\TDD_dpp\\TDD_dpp.csproj",
+  "projectFilePath": "C:\\Users\\Martyna\\Dobre-Praktyki-Programowania\\TDD_dpp\\TDD_dpp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martyna\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Martyna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

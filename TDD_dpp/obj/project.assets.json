@@ -378,11 +378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Martyna\\source\\repos\\TDD_dpp\\TDD_dpp.csproj",
+      "projectUniqueName": "C:\\Users\\Martyna\\Dobre-Praktyki-Programowania\\TDD_dpp\\TDD_dpp.csproj",
       "projectName": "TDD_dpp",
-      "projectPath": "C:\\Users\\Martyna\\source\\repos\\TDD_dpp\\TDD_dpp.csproj",
+      "projectPath": "C:\\Users\\Martyna\\Dobre-Praktyki-Programowania\\TDD_dpp\\TDD_dpp.csproj",
       "packagesPath": "C:\\Users\\Martyna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Martyna\\source\\repos\\TDD_dpp\\obj\\",
+      "outputPath": "C:\\Users\\Martyna\\Dobre-Praktyki-Programowania\\TDD_dpp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Martyna\\AppData\\Roaming\\NuGet\\NuGet.Config",
