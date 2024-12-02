@@ -19,10 +19,13 @@ jobs:
       with:
         dotnet-version: '6.0'
 
-    - name: Build Solution
-      run: dotnet publish TDD_dpp.sln --configuration Release --output ./publish/
+    - name: Restore Dependencies
+      run: dotnet restore TDD_dpp/TDD_dpp.sln
 
-    - name: Create Release
+    - name: Build Solution
+      run: dotnet publish TDD_dpp/TDD_dpp.sln --configuration Release --output ./publish/
+
+    - name: Create GitHub Release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
