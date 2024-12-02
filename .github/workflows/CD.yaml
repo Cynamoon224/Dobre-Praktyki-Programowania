@@ -23,7 +23,7 @@ jobs:
       run: dotnet restore TDD_dpp/TDD_dpp.sln
 
     - name: Build Solution
-      run: dotnet publish TDD_dpp/TDD_dpp.sln --configuration Release --output ./publish/
+      run: dotnet publish TDD_dpp/TDD_dpp.csproj --configuration Release --output ./publish/
 
     - name: Create GitHub Release
       uses: actions/create-release@v1
@@ -35,7 +35,7 @@ jobs:
         draft: false
         prerelease: false
 
-    - name: Upload Release Artifact
+    - name: Upload Release Artifacts
       uses: actions/upload-artifact@v3
       with:
         name: published-app
