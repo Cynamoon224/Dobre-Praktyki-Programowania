@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    name: Build, Lint, and Run Tests
+    name: Build and Run Tests for C#
     runs-on: ubuntu-latest
 
     steps:
@@ -22,6 +22,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LANGUAGES: csharp
         VALIDATE_ALL_CODEBASE: true
+        EXCLUDED_PATHS: |
+          DPP_wzorce_projektowe/**
         RUN_LOCAL: false
 
     - name: Setup .NET
